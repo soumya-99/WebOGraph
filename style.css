@@ -21,6 +21,10 @@ a.brand-logo{
   animation-iteration-count: infinite;
 }
 
+.container iframe{
+  box-shadow: -6px 11px 12px 0px;
+}
+
 /* @keyframes shake {
   0% { transform: translate(-1px, 2px) rotate(-33deg); }
   25% { transform: translate(5px, 9px) rotate(20deg);}
@@ -52,5 +56,10 @@ a.brand-logo{
 #mobile-demo a img.circle{
   width: 22%;
   height: 22%;
+}
+.container iframe{
+  height: 100%;
+  width: 100%;
+  box-shadow: -6px 11px 12px 0px;
 }
 }
