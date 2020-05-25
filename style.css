@@ -14,11 +14,13 @@ a.brand-logo{
 }
 #support a img{
   width: 7vw;
+  filter: grayscale(100%);
 }
 
 #support a img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+  filter: grayscale(0%);
 }
 
 .container iframe{
