@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;0,700;0,900;1,600;1,700;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
     max-width: 100%;
     height: auto;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 a.brand-logo{
   padding-left: 5vw;
-  font-family: French Script MT;
+  font-family: 'Pacifico', cursive;
   font-size: 4vw;
 }
 #support a img{
@@ -30,9 +33,9 @@ a.brand-logo{
   100% { transform: rotate(180deg); }
 }
 @media only screen and (max-device-width: 768px) {
-  ul.sidenav {
+  /* ul.sidenav {
     width: 100%;
-  }
+  } */
   a.brand-logo{
     font-size: 10vw;
   }
@@ -41,7 +44,7 @@ a.brand-logo{
 }
 #mobile-demo a span.name{
   font-size: 6vw;
-  font-family: French Script MT;
+  font-family: 'Pacifico', cursive;
 }
 #mobile-demo .background img{
   width: 100%;
