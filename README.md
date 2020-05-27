@@ -1,6 +1,6 @@
 # WebOGraph
 It's a sample website using Materializecss.
-<h3 align="center">WebOGraph</h3>
+<h1 align="center">WebOGraph</h1>
 
 ## Basics
 - [Info](#info)
